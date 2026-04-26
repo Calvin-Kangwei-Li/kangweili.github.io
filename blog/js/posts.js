@@ -10,7 +10,7 @@
 // ─────────────────────────────────────────────────────────────
 const POSTS = [
   {
-    file:    "posts/2025-04-26-getting-started.md",
+    file:    "posts/2026-04-26-getting-started.md",
     title:   "Getting Started with This Journal",
     date:    "2026-04-26",
     tags:    ["misc"],

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog — Kangwei Li</title>
+  <link rel="stylesheet" href="css/blog.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+</head>
+<body>
+
+  <!-- ── Top nav (matches main site) ── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="../index.html" class="logo">Kangwei Li</a>
+      <nav class="nav">
+        <a href="../index.html"    class="nav-link">Home</a>
+        <a href="../research.html" class="nav-link">Research</a>
+        <a href="index.html"       class="nav-link active">Blog</a>
+        <a href="../cv.pdf"        class="nav-link" target="_blank">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ── Grid view ── -->
+  <div id="grid-view">
+    <div class="blog-hero">
+      <h1 class="blog-title">Academic Journal</h1>
+      <p class="blog-subtitle">Daily notes on optimization, probability, and research in progress.</p>
+
+      <!-- Filter bar -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="reading">Reading</button>
+        <button class="filter-btn" data-filter="research">Research</button>
+        <button class="filter-btn" data-filter="ideas">Ideas</button>
+        <button class="filter-btn" data-filter="misc">Misc</button>
+        <input type="text" id="search" class="search-box" placeholder="Search posts…"/>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="card-grid" class="card-grid">
+        <!-- Cards injected by JS -->
+      </div>
+      <p id="no-results" class="no-results hidden">No posts found.</p>
+    </div>
+  </div>
+
+  <!-- ── Post reader view ── -->
+  <div id="post-view" class="hidden">
+    <div class="container post-container">
+      <button id="back-btn" class="back-btn">← Back to Blog</button>
+      <article id="post-body" class="post-body"></article>
+    </div>
+  </div>
+
+  <script src="js/posts.js"></script>
+  <script src="js/blog.js"></script>
+</body>
+</html>

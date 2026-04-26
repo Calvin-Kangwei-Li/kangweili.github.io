@@ -17,17 +17,17 @@ const POSTS = [
     excerpt: "Why I'm keeping a daily academic journal and how this site works."
   },
   {
-    file:    "posts/2025-04-25-reading-notes-kuhn.md",
-    title:   "Reading Notes: The Structure of Scientific Revolutions",
+    file:    "posts/4-26-26subgradient.md",
+    title:   "Reading Notes: Subgradient method",
     date:    "2025-04-25",
-    tags:    ["reading", "philosophy of science"],
-    excerpt: "Kuhn's notion of paradigm shifts feels more nuanced on a second reading — especially chapters 6–8."
+    tags:    ["reading", "Convex Optimization"],
+    excerpt: "Boyd's notes for EE364b in subgradient method"
   },
   {
-    file:    "posts/2025-04-24-research-update.md",
+    file:    "posts/4-26-26-research-update.md",
     title:   "Weekly Research Update",
-    date:    "2025-04-24",
+    date:    "04/26/2026",
     tags:    ["research"],
-    excerpt: "Progress on the literature review; three new papers to integrate; a methodological puzzle."
+    excerpt: "Progress on the literature review in minimax RL problem"
   }
 ];

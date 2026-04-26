@@ -12,21 +12,21 @@ const POSTS = [
   {
     file:    "posts/2025-04-26-getting-started.md",
     title:   "Getting Started with This Journal",
-    date:    "2025-04-26",
+    date:    "2026-04-26",
     tags:    ["misc"],
     excerpt: "Why I'm keeping a daily academic journal and how this site works."
   },
   {
     file:    "posts/4-26-26subgradient.md",
     title:   "Reading Notes: Subgradient method",
-    date:    "2025-04-25",
+    date:    "2026-04-26",
     tags:    ["reading", "Convex Optimization"],
     excerpt: "Boyd's notes for EE364b in subgradient method"
   },
   {
     file:    "posts/4-26-26-research-update.md",
     title:   "Weekly Research Update",
-    date:    "04/26/2026",
+    date:    "2026-04-26",
     tags:    ["research"],
     excerpt: "Progress on the literature review in minimax RL problem"
   }

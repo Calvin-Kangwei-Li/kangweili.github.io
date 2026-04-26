@@ -12,21 +12,21 @@ const POSTS = [
   {
     file:    "posts/2025-04-26-getting-started.md",
     title:   "Getting Started with This Journal",
-    date:    "2025-04-26",
+    date:    "2026-04-26",
     tags:    ["misc"],
     excerpt: "Why I'm keeping a daily academic journal and how this site works."
   },
   {
     file:    "posts/2025-04-25-reading-notes-kuhn.md",
     title:   "Reading Notes: The Structure of Scientific Revolutions",
-    date:    "2025-04-25",
+    date:    "2026-04-26",
     tags:    ["reading", "philosophy of science"],
     excerpt: "Kuhn's notion of paradigm shifts feels more nuanced on a second reading — especially chapters 6–8."
   },
   {
     file:    "posts/2025-04-24-research-update.md",
     title:   "Weekly Research Update",
-    date:    "2025-04-24",
+    date:    "2026-04-26",
     tags:    ["research"],
     excerpt: "Progress on the literature review; three new papers to integrate; a methodological puzzle."
   }

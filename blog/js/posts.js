@@ -16,18 +16,18 @@ const POSTS = [
     tags:    ["misc"],
     excerpt: "Why I'm keeping a daily academic journal and how this site works."
   },
-  {
-    file:    "posts/2026-04-26-subgradient.md",
-    title:   "Reading Notes: Subgradient methods",
-    date:    "2026-04-26",
-    tags:    ["reading", "Convex Optimization"],
-    excerpt: "Review the notes by Boyd in subgradient"
-  },
-  {
-    file:    "posts/2026-04-26-research-update.md",
-    title:   "Weekly Research Update",
-    date:    "2026-04-25",
-    tags:    ["research"],
-    excerpt: "Progress on the literature review in minimax RL"
-  }
+  // {
+  //   file:    "posts/2026-04-26-subgradient.md",
+  //   title:   "Reading Notes: Subgradient methods",
+  //   date:    "2026-04-26",
+  //   tags:    ["reading", "Convex Optimization"],
+  //   excerpt: "Review the notes by Boyd in subgradient"
+  // },
+  // {
+  //   file:    "posts/2026-04-26-research-update.md",
+  //   title:   "Weekly Research Update",
+  //   date:    "2026-04-25",
+  //   tags:    ["research"],
+  //   excerpt: "Progress on the literature review in minimax RL"
+  // }
 ];

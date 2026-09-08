@@ -26,7 +26,7 @@ const POSTS = [
   },
 
   {
-    file:    "2026-08-29-PO-implementation.md",
+    file:    "posts/2026-08-29-PO-implementation.md",
     title:   "WTR Implementation Notes",
     date:    "2026-09-07",
     tags:    ["Research"],

@@ -23,6 +23,14 @@ const POSTS = [
     date:    "2026-04-26",
     tags:    ["misc"],
     excerpt: "Why I'm keeping a daily academic journal and how this site works."
+  },
+
+  {
+    file:    "2026-08-29-PO-implementation.md",
+    title:   "WTR Implementation Notes",
+    date:    "2026-09-07",
+    tags:    ["Research"],
+    excerpt: "The implementation details of toy examples in my research"
   }
   // {
   //   file:    "posts/2026-04-26-subgradient.md",
